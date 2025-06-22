@@ -1,0 +1,12 @@
+Este archivo se crea por que los archivos espaciales consumen mucho peso: 
+
+brew install git-lfs
+git lfs install
+
+git lfs track "*.tif"
+
+git add .gitattributes
+git add B04.tif B08.tif
+git commit -m "Usando Git LFS para archivos TIFF"
+
+git push origin main
